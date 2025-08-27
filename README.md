@@ -11,7 +11,7 @@ A tiny VS Code extension that opens a terminal **in a new window** using any of 
 ## Install
 
 ### From the latest release
-1. Download the `.vsix` from the [latest release](https://github.com/F286/overlay-terminal/releases/latest).
+1. [⬇️ Download the latest `.vsix`](https://github.com/F286/overlay-terminal/releases/latest/download/overlay-terminal.vsix).
 2. Install it:
    ```bash
    code --install-extension ./overlay-terminal.vsix
