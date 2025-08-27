@@ -3,7 +3,9 @@
   "displayName": "Overlay Terminal: New Window + Close On Exit",
   "version": "0.2.0",
   "publisher": "local",
-  "engines": { "vscode": "^1.82.0" },
+  "engines": {
+    "vscode": "^1.103.0"
+  },
   "main": "dist/extension.js",
   "repository": "https://github.com/F286/dotfiles",
   "activationEvents": [
@@ -13,8 +15,14 @@
   ],
   "contributes": {
     "commands": [
-      { "command": "overlayTerminals.openProfile", "title": "Overlay Terminal: Open Profile" },
-      { "command": "overlayTerminals.pickProfile", "title": "Overlay Terminal: Pick Profile" }
+      {
+        "command": "overlayTerminals.openProfile",
+        "title": "Overlay Terminal: Open Profile"
+      },
+      {
+        "command": "overlayTerminals.pickProfile",
+        "title": "Overlay Terminal: Pick Profile"
+      }
     ]
   },
   "scripts": {
@@ -25,10 +33,9 @@
     "deploy": "npm run build && npm run package && npm run install"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/vscode": "^1.82.0",
-    "typescript": "^5.4.0",
-    "@vscode/vsce": "^3.0.0"
+    "@types/node": "^20.19.11",
+    "@types/vscode": "^1.103.0",
+    "@vscode/vsce": "^3.0.0",
+    "typescript": "^5.9.2"
   }
 }
-
