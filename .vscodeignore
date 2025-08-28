@@ -1,0 +1,9 @@
+# Exclude development files from the VSIX
+.git/**
+.github/**
+src/**
+node_modules/**
+tsconfig.json
+package-lock.json
+*.vsix
+.gitignore

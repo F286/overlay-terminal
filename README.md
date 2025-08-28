@@ -6,8 +6,6 @@
 
 A tiny VS Code extension that opens a terminal **in a new window** using any of your configured terminal profiles. When the shell exits the window closes and focus returns to the editor (sending `Esc` for VSCodeVim users).
 
-> Requires VS Code **1.82+**
-
 ## Install
 
 ### From the latest release
@@ -42,7 +40,7 @@ The extension uses your OS specific `terminal.integrated.profiles.*` setting and
 ## CI / Releases
 
 * Every push to `main` builds the extension and uploads the packaged `.vsix` as a workflow artifact.
-* Pushing a tag like `v0.2.0` also creates a GitHub release with the `.vsix` attached.
+* Pushing a tag like `vX.Y.Z` also creates a GitHub release with the `.vsix` attached.
 
 ## Commands
 

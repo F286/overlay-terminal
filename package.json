@@ -1,15 +1,26 @@
 {
-  "name": "overlay-terminals-return",
+  "name": "overlay-terminal",
   "displayName": "Overlay Terminal: New Window + Close On Exit",
   "version": "0.2.0",
   "publisher": "local",
+  "description": "Open a terminal profile in a separate window and auto-close on shell exit, returning focus to the editor (sends Esc for VSCodeVim).",
+  "license": "Unlicense",
   "engines": {
     "vscode": "^1.103.0"
   },
   "main": "dist/extension.js",
-  "repository": "https://github.com/F286/dotfiles",
+  "repository": "https://github.com/F286/overlay-terminal",
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "terminal",
+    "overlay",
+    "profiles",
+    "new window",
+    "vim"
+  ],
   "activationEvents": [
-    "onStartupFinished",
     "onCommand:overlayTerminals.openProfile",
     "onCommand:overlayTerminals.pickProfile"
   ],
