@@ -2,7 +2,7 @@
   "name": "overlay-terminal",
   "displayName": "Overlay Terminal: New Window + Close On Exit",
   "version": "0.2.0",
-  "publisher": "local",
+  "publisher": "FreeDebreuil",
   "description": "Open a terminal profile in a separate window and auto-close on shell exit, returning focus to the editor (sends Esc for VSCodeVim).",
   "license": "Unlicense",
   "engines": {
